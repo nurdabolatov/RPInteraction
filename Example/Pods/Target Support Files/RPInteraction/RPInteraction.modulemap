@@ -1,0 +1,6 @@
+framework module RPInteraction {
+  umbrella header "RPInteraction-umbrella.h"
+
+  export *
+  module * { export * }
+}

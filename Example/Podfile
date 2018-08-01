@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RPInteraction_Example' do
+  pod 'RPInteraction', :path => '../'
+
+  target 'RPInteraction_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

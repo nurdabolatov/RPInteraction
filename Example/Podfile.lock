@@ -1,0 +1,16 @@
+PODS:
+  - RPInteraction (0.1.0)
+
+DEPENDENCIES:
+  - RPInteraction (from `../`)
+
+EXTERNAL SOURCES:
+  RPInteraction:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RPInteraction: 73022a9433c8d9558d916a3f0e8244953918dd01
+
+PODFILE CHECKSUM: 139fd9f70e4380808a011c7e4cad2e3cd6ca226d
+
+COCOAPODS: 1.5.3

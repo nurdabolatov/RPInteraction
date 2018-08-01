@@ -1,0 +1,6 @@
+framework module Pods_RPInteraction_Tests {
+  umbrella header "Pods-RPInteraction_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
