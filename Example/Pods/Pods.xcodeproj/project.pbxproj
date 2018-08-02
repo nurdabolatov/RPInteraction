@@ -8,20 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		0B3CB7C8E1889C709D8039C3231AAC14 /* ReelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C88A3622BD9440C59139AB4EFD90EB /* ReelView.m */; };
-		14465A4476228EBCF76E52C53D22B8CA /* RPInteraction.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0F273972314DFBE523549C9D55D8F8B7 /* RPInteraction.bundle */; };
+		14465A4476228EBCF76E52C53D22B8CA /* RPInteraction.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7A95F97F1629D85C42001A12B9C4AB33 /* RPInteraction.bundle */; };
 		2019BA3A90B6FC794AD4F96E6E2E3942 /* Pie.m in Sources */ = {isa = PBXBuildFile; fileRef = F95834D91A28F9B880E43730D1881DB2 /* Pie.m */; };
 		2AE461AE103F502A4ED3CF4046EC3E15 /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9313A859DFB916BF4883C68823A7EC7 /* close@2x.png */; };
 		3D929025598432FCED451E199FD0F0AF /* AnimationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F53F8F47547C2A4836F1673B60167B /* AnimationFactory.m */; };
-		4AD9732AE2BBF60382A6301C9A2914A7 /* Pods-RPInteraction_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E406EA8EBC8233C888B483E4F0834A /* Pods-RPInteraction_Tests-dummy.m */; };
 		5406B8D8CAF474703CFF152F72C6B9C8 /* UIColor+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F8940C4AA0952C44D7042B5942B827 /* UIColor+Utils.m */; };
 		56031E96DE2018A7101F60278D37E266 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		59506F0C5CDCB6E5A83FB79E36A1C11C /* Pods-RPInteraction_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73A3016E9517C89E4643D234C3450FE9 /* Pods-RPInteraction_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59506F0C5CDCB6E5A83FB79E36A1C11C /* Pods-RPInteraction_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F093929EA93EB5A394D2DADCDCD26E /* Pods-RPInteraction_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66B97505638D7BD4F9B71486D5548164 /* LayerFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 770960D37BAB5576B4D1072913FF4671 /* LayerFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68A7EE2FFEFD20052DD530AEEF8EA2E2 /* DescriptionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 65059BF466BDFFDF2C2BA25588268817 /* DescriptionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B4C7BE2E8C5B02FC9BF17B72D4EB897 /* Pods-RPInteraction_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4395817246D3AEB520B24A8F31272492 /* Pods-RPInteraction_Example-dummy.m */; };
+		6B4C7BE2E8C5B02FC9BF17B72D4EB897 /* Pods-RPInteraction_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E43A4C919B99E2C0B1CB5BFAC4B7A0 /* Pods-RPInteraction_Example-dummy.m */; };
 		6F2A27991ED46888071A87C0A0EABF2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		7956FDFDDA41F5F83D652E2095C5D30F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		8749B932412063FD03D36F92FD1F2C29 /* Pods-RPInteraction_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD83AF157A49F844AFF4BD75DFD3E59D /* Pods-RPInteraction_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93E05773C7286F4723B4F830D6812F50 /* AnimationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E5283801013A2CD6F1C39349FAA78D6 /* AnimationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94915B16C7776C079B525B41ABB32D96 /* ScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 16B5908E89E0E4C109FAE8B5B85299A7 /* ScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		950B866839C27AB5DC993A7C3DDA2125 /* Gradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 16574ABDA125BBCEADAA1EF5A78B8717 /* Gradient.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -44,7 +42,6 @@
 		E37EF5D7AB8D846C4D58AF1FD13D61A2 /* UIFont+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 499CA81D40C3AD10D904D23DF3D0574E /* UIFont+Utils.m */; };
 		E674FF4426493F9EBC924812F5626EE4 /* LayerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E639E2A727E5DF460BAAD4BD0E56E2 /* LayerFactory.m */; };
 		F653F1E3DE4AD8AE50A3ECF0987FDFF6 /* Pie.h in Headers */ = {isa = PBXBuildFile; fileRef = 543A8DDDF93AABD3AF9D4D2496E864FA /* Pie.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBA72DB71696C91628BC2FA0310D3DDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		FBB40AAB9F0062E7505220F50CDF5A49 /* RPViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 364FBF81052FE3EBACCF3F3B417FA4D3 /* RPViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FEBD86B3833A8B67F721FF3201614723 /* close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56FE7E21AB1B8883830CEABE08A7A1DB /* close@3x.png */; };
 		FF8C93B7F55E5C8E0B438C95AB34A878 /* RPInteraction-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D32CEB5ED66E63254AFED0108D464254 /* RPInteraction-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -65,94 +62,68 @@
 			remoteGlobalIDString = 990B4698CD89C07F13A9650F2C88079C;
 			remoteInfo = "RPInteraction-RPInteraction";
 		};
-		FAD52923534D8BE59912951748F82C11 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6F1DDF31C2711DB381A0F56036A73D5A;
-			remoteInfo = "Pods-RPInteraction_Example";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		066A51E57EAFC132BE65B2C31FE20EFC /* RPInteraction.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RPInteraction.modulemap; sourceTree = "<group>"; };
 		074930263B62DF6560AAFA5AB31A0AF1 /* close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = close.png; path = RPInteraction/Assets/close.png; sourceTree = "<group>"; };
 		089A52D3284F267FCA8B4F032551A2C3 /* RPViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RPViewController.m; sourceTree = "<group>"; };
+		0953D6570693ECDF1B39E5FB4F33725E /* Pods-RPInteraction_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RPInteraction_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0BF1F464D4BAFAC23A8230F82EC3CF49 /* FaceView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FaceView.h; sourceTree = "<group>"; };
 		0E56CC1CF42BAE680A45C3E68B243090 /* ConfirmView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ConfirmView.h; sourceTree = "<group>"; };
-		0F273972314DFBE523549C9D55D8F8B7 /* RPInteraction.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = RPInteraction.bundle; path = "RPInteraction-RPInteraction.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16574ABDA125BBCEADAA1EF5A78B8717 /* Gradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Gradient.h; sourceTree = "<group>"; };
 		16AEFEC8D8146F51890249A2E493FEB5 /* UIFont+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFont+Utils.h"; sourceTree = "<group>"; };
 		16B5908E89E0E4C109FAE8B5B85299A7 /* ScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ScrollView.h; sourceTree = "<group>"; };
+		19E2978AD049EDB4AFBC37150359B198 /* Pods_RPInteraction_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RPInteraction_Example.framework; path = "Pods-RPInteraction_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		203DB159CF634FE86B157DD8E19FBACB /* Pods-RPInteraction_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RPInteraction_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		21C8F4AAFEA2D774AA135248C887F811 /* Pods-RPInteraction_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RPInteraction_Example-frameworks.sh"; sourceTree = "<group>"; };
+		28F093929EA93EB5A394D2DADCDCD26E /* Pods-RPInteraction_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RPInteraction_Example-umbrella.h"; sourceTree = "<group>"; };
 		2A43711C5D5EF2AD2862D3E974623331 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		2A87C4061E263489BC39778D4E1488C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		315E7FBCBAD8ED893EFEE1D2B855E058 /* DescriptionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DescriptionView.m; sourceTree = "<group>"; };
 		364FBF81052FE3EBACCF3F3B417FA4D3 /* RPViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RPViewController.h; sourceTree = "<group>"; };
 		385174096C982CEAD54DB060393C2584 /* ScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ScrollView.m; sourceTree = "<group>"; };
 		3D057C4A36FED6584EB31B9A9969569F /* RPInteraction.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RPInteraction.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4395817246D3AEB520B24A8F31272492 /* Pods-RPInteraction_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RPInteraction_Example-dummy.m"; sourceTree = "<group>"; };
-		45B691C20D5399BF6493A55EB1D982BF /* Pods-RPInteraction_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RPInteraction_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		45F8940C4AA0952C44D7042B5942B827 /* UIColor+Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utils.m"; sourceTree = "<group>"; };
-		46734DA994FD32BA9754394213C3D150 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46C88A3622BD9440C59139AB4EFD90EB /* ReelView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReelView.m; sourceTree = "<group>"; };
 		499CA81D40C3AD10D904D23DF3D0574E /* UIFont+Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Utils.m"; sourceTree = "<group>"; };
+		4C0D2472E364EC2DBCAE9A2E53C2ADFC /* Pods-RPInteraction_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RPInteraction_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4D297A2D057948C59CAEBA668EE1A261 /* FaceView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
-		541AF2EA45BBB3A724906C38C1C14A64 /* Pods-RPInteraction_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RPInteraction_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		543A8DDDF93AABD3AF9D4D2496E864FA /* Pie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Pie.h; sourceTree = "<group>"; };
 		56FE7E21AB1B8883830CEABE08A7A1DB /* close@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close@3x.png"; path = "RPInteraction/Assets/close@3x.png"; sourceTree = "<group>"; };
-		5B77DCA66DEEE7327DA76CFCF2993058 /* Pods-RPInteraction_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RPInteraction_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		617F4B88C68C7CAD60D6AAB14EDB1C3E /* Pods-RPInteraction_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RPInteraction_Tests.modulemap"; sourceTree = "<group>"; };
+		62A0B6BD391CA503B21649F63AE61536 /* RPInteraction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RPInteraction.framework; path = RPInteraction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65059BF466BDFFDF2C2BA25588268817 /* DescriptionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DescriptionView.h; sourceTree = "<group>"; };
-		72653D60284AE20665199CCB7A12C6CB /* Pods-RPInteraction_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RPInteraction_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		73A3016E9517C89E4643D234C3450FE9 /* Pods-RPInteraction_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RPInteraction_Example-umbrella.h"; sourceTree = "<group>"; };
+		67A0E0B213448A5B4D5DA2ACD472B18E /* Pods-RPInteraction_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RPInteraction_Example-resources.sh"; sourceTree = "<group>"; };
 		770960D37BAB5576B4D1072913FF4671 /* LayerFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LayerFactory.h; sourceTree = "<group>"; };
+		7A95F97F1629D85C42001A12B9C4AB33 /* RPInteraction.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = RPInteraction.bundle; path = "RPInteraction-RPInteraction.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E5283801013A2CD6F1C39349FAA78D6 /* AnimationFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AnimationFactory.h; sourceTree = "<group>"; };
-		809BE3D8E112B57CC712C4D8B78826AC /* Pods-RPInteraction_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RPInteraction_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8B13E1E3CDC7D73C2021C52B07294493 /* ConfirmView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ConfirmView.m; sourceTree = "<group>"; };
+		917B0FDDC1D3AFB45FBE730B77EF46E3 /* Pods-RPInteraction_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RPInteraction_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		91CA64C10FEDF903D6BBDA266834230E /* Constants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96348DD54749573A45917C7A0DA1BC32 /* Pods-RPInteraction_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RPInteraction_Example.modulemap"; sourceTree = "<group>"; };
 		98E137ADC26FC65E786E05C9D5934FF8 /* ReelView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ReelView.h; sourceTree = "<group>"; };
-		A0CF2B90A9FE596FBE0C3E5707746E80 /* Pods-RPInteraction_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RPInteraction_Tests-resources.sh"; sourceTree = "<group>"; };
-		A33D0AAED18E311BC5F985A9A33A7337 /* Pods-RPInteraction_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RPInteraction_Example-resources.sh"; sourceTree = "<group>"; };
-		A602D985F561B24D6A7DB2FAE77901B5 /* Pods-RPInteraction_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RPInteraction_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AE63BA9F438F223487749945DA034914 /* Constants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		B1E43A4C919B99E2C0B1CB5BFAC4B7A0 /* Pods-RPInteraction_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RPInteraction_Example-dummy.m"; sourceTree = "<group>"; };
 		B1F9D52AA8E3D8FB95DEF1EC32DF749C /* RPInteraction-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RPInteraction-prefix.pch"; sourceTree = "<group>"; };
 		B404E933BD65D1D59DB4A9DF8925C5EC /* RPInteraction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RPInteraction.xcconfig; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BFB9A13C979D9A7610F41F04396F828F /* Pods_RPInteraction_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RPInteraction_Example.framework; path = "Pods-RPInteraction_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9313A859DFB916BF4883C68823A7EC7 /* close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close@2x.png"; path = "RPInteraction/Assets/close@2x.png"; sourceTree = "<group>"; };
 		CA4582C0E64000AFD1928BD8AA4830E5 /* RPInteraction-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RPInteraction-dummy.m"; sourceTree = "<group>"; };
-		CC722590D262C17B55E54A771A13DA4E /* Pods-RPInteraction_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RPInteraction_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D2C2F5B3B8866B2486113F391C9F5BE0 /* Pods_RPInteraction_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RPInteraction_Tests.framework; path = "Pods-RPInteraction_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2342B09A3C0021F1DA2F7B8DFDE2DC /* Pods-RPInteraction_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RPInteraction_Example.modulemap"; sourceTree = "<group>"; };
 		D32CEB5ED66E63254AFED0108D464254 /* RPInteraction-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RPInteraction-umbrella.h"; sourceTree = "<group>"; };
 		D4E639E2A727E5DF460BAAD4BD0E56E2 /* LayerFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LayerFactory.m; sourceTree = "<group>"; };
-		D4FB1865503DF77945AB0CD9140F0D55 /* Pods-RPInteraction_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RPInteraction_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D50BD1646493CAA94BB5381996BB95EE /* ResourceBundle-RPInteraction-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RPInteraction-Info.plist"; sourceTree = "<group>"; };
 		D5F53F8F47547C2A4836F1673B60167B /* AnimationFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AnimationFactory.m; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D90A805CC30A1C9123EBBA99B4244C98 /* Pods-RPInteraction_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RPInteraction_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		DB3E0129B6492E0C7DF5AACBCC6519CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		DEC836C4C9466613F8CCB9A63ACB29DA /* UIColor+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utils.h"; sourceTree = "<group>"; };
-		E4B638451E5FE9943C418375D1C784CF /* Pods-RPInteraction_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RPInteraction_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EB069EAB0473993FB84578F4974100F9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E96A84C29D2007CF62783F5282DFF5FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB159D10EA8FF0A0DFC7EAE98C730527 /* RPRate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RPRate.h; sourceTree = "<group>"; };
-		EBB33F511F4A104547FA568185EAC765 /* RPInteraction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RPInteraction.framework; path = RPInteraction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC13DDDBDF3C155B3ADAFED563F343A /* Gradient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Gradient.m; sourceTree = "<group>"; };
-		F5E406EA8EBC8233C888B483E4F0834A /* Pods-RPInteraction_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RPInteraction_Tests-dummy.m"; sourceTree = "<group>"; };
 		F95834D91A28F9B880E43730D1881DB2 /* Pie.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Pie.m; sourceTree = "<group>"; };
-		FD83AF157A49F844AFF4BD75DFD3E59D /* Pods-RPInteraction_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RPInteraction_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2D52E65B1549B90D9A7CCB7EAC5A66B1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FBA72DB71696C91628BC2FA0310D3DDD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		926D51A44AAD35D0B7CFA0C405A2DA41 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -180,6 +151,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A567BEA6D1FE7D5A88EAD024C0BAD0B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				97F50C2DB59E75DFD55261F2ABF69AEF /* Pods-RPInteraction_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		29C893A6AB7B3B5160707649EAA824C7 /* Factories */ = {
 			isa = PBXGroup;
 			children = (
@@ -266,8 +245,8 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				52CAD5812DFB1A45CCD892F0D735FD66 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				CE120F6917C0A0A7602C10AB3FDC6081 /* Products */,
-				9634E861159107299C57BD3FB77608FB /* Targets Support Files */,
+				DF3EB9A0C7F8FA19036D1FCFD453E9CC /* Products */,
+				0A567BEA6D1FE7D5A88EAD024C0BAD0B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -289,13 +268,22 @@
 			path = RPInteraction/Classes/Views;
 			sourceTree = "<group>";
 		};
-		9634E861159107299C57BD3FB77608FB /* Targets Support Files */ = {
+		97F50C2DB59E75DFD55261F2ABF69AEF /* Pods-RPInteraction_Example */ = {
 			isa = PBXGroup;
 			children = (
-				AD4BD99FF7ED6C00EAA7615E2EA6BF50 /* Pods-RPInteraction_Example */,
-				AB831962CE57D1881EDFEC40D5F335F1 /* Pods-RPInteraction_Tests */,
+				E96A84C29D2007CF62783F5282DFF5FF /* Info.plist */,
+				CB2342B09A3C0021F1DA2F7B8DFDE2DC /* Pods-RPInteraction_Example.modulemap */,
+				917B0FDDC1D3AFB45FBE730B77EF46E3 /* Pods-RPInteraction_Example-acknowledgements.markdown */,
+				203DB159CF634FE86B157DD8E19FBACB /* Pods-RPInteraction_Example-acknowledgements.plist */,
+				B1E43A4C919B99E2C0B1CB5BFAC4B7A0 /* Pods-RPInteraction_Example-dummy.m */,
+				21C8F4AAFEA2D774AA135248C887F811 /* Pods-RPInteraction_Example-frameworks.sh */,
+				67A0E0B213448A5B4D5DA2ACD472B18E /* Pods-RPInteraction_Example-resources.sh */,
+				28F093929EA93EB5A394D2DADCDCD26E /* Pods-RPInteraction_Example-umbrella.h */,
+				4C0D2472E364EC2DBCAE9A2E53C2ADFC /* Pods-RPInteraction_Example.debug.xcconfig */,
+				0953D6570693ECDF1B39E5FB4F33725E /* Pods-RPInteraction_Example.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-RPInteraction_Example";
+			path = "Target Support Files/Pods-RPInteraction_Example";
 			sourceTree = "<group>";
 		};
 		9C372CE4A741B1DFB9C033124739CE77 /* RPInteraction */ = {
@@ -315,42 +303,6 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		AB831962CE57D1881EDFEC40D5F335F1 /* Pods-RPInteraction_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				46734DA994FD32BA9754394213C3D150 /* Info.plist */,
-				617F4B88C68C7CAD60D6AAB14EDB1C3E /* Pods-RPInteraction_Tests.modulemap */,
-				A602D985F561B24D6A7DB2FAE77901B5 /* Pods-RPInteraction_Tests-acknowledgements.markdown */,
-				72653D60284AE20665199CCB7A12C6CB /* Pods-RPInteraction_Tests-acknowledgements.plist */,
-				F5E406EA8EBC8233C888B483E4F0834A /* Pods-RPInteraction_Tests-dummy.m */,
-				D90A805CC30A1C9123EBBA99B4244C98 /* Pods-RPInteraction_Tests-frameworks.sh */,
-				A0CF2B90A9FE596FBE0C3E5707746E80 /* Pods-RPInteraction_Tests-resources.sh */,
-				FD83AF157A49F844AFF4BD75DFD3E59D /* Pods-RPInteraction_Tests-umbrella.h */,
-				45B691C20D5399BF6493A55EB1D982BF /* Pods-RPInteraction_Tests.debug.xcconfig */,
-				5B77DCA66DEEE7327DA76CFCF2993058 /* Pods-RPInteraction_Tests.release.xcconfig */,
-			);
-			name = "Pods-RPInteraction_Tests";
-			path = "Target Support Files/Pods-RPInteraction_Tests";
-			sourceTree = "<group>";
-		};
-		AD4BD99FF7ED6C00EAA7615E2EA6BF50 /* Pods-RPInteraction_Example */ = {
-			isa = PBXGroup;
-			children = (
-				EB069EAB0473993FB84578F4974100F9 /* Info.plist */,
-				96348DD54749573A45917C7A0DA1BC32 /* Pods-RPInteraction_Example.modulemap */,
-				E4B638451E5FE9943C418375D1C784CF /* Pods-RPInteraction_Example-acknowledgements.markdown */,
-				541AF2EA45BBB3A724906C38C1C14A64 /* Pods-RPInteraction_Example-acknowledgements.plist */,
-				4395817246D3AEB520B24A8F31272492 /* Pods-RPInteraction_Example-dummy.m */,
-				CC722590D262C17B55E54A771A13DA4E /* Pods-RPInteraction_Example-frameworks.sh */,
-				A33D0AAED18E311BC5F985A9A33A7337 /* Pods-RPInteraction_Example-resources.sh */,
-				73A3016E9517C89E4643D234C3450FE9 /* Pods-RPInteraction_Example-umbrella.h */,
-				809BE3D8E112B57CC712C4D8B78826AC /* Pods-RPInteraction_Example.debug.xcconfig */,
-				D4FB1865503DF77945AB0CD9140F0D55 /* Pods-RPInteraction_Example.release.xcconfig */,
-			);
-			name = "Pods-RPInteraction_Example";
-			path = "Target Support Files/Pods-RPInteraction_Example";
-			sourceTree = "<group>";
-		};
 		BDE26A76AE89EA22394DD581AB51B3E6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -361,13 +313,12 @@
 			path = RPInteraction/Classes/Controllers;
 			sourceTree = "<group>";
 		};
-		CE120F6917C0A0A7602C10AB3FDC6081 /* Products */ = {
+		DF3EB9A0C7F8FA19036D1FCFD453E9CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BFB9A13C979D9A7610F41F04396F828F /* Pods_RPInteraction_Example.framework */,
-				D2C2F5B3B8866B2486113F391C9F5BE0 /* Pods_RPInteraction_Tests.framework */,
-				0F273972314DFBE523549C9D55D8F8B7 /* RPInteraction.bundle */,
-				EBB33F511F4A104547FA568185EAC765 /* RPInteraction.framework */,
+				19E2978AD049EDB4AFBC37150359B198 /* Pods_RPInteraction_Example.framework */,
+				7A95F97F1629D85C42001A12B9C4AB33 /* RPInteraction.bundle */,
+				62A0B6BD391CA503B21649F63AE61536 /* RPInteraction.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -424,14 +375,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9AAC58170235E27A6038D0601855EA6F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8749B932412063FD03D36F92FD1F2C29 /* Pods-RPInteraction_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CB9C2511D4CC8253B4E059E34D2407B8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -443,24 +386,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		52180BABE2B638A39B299552964B1B1F /* Pods-RPInteraction_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2D5CF57877A2679BD8CE5C5DDD575466 /* Build configuration list for PBXNativeTarget "Pods-RPInteraction_Tests" */;
-			buildPhases = (
-				5C696DA7174B8352A106618254AD0918 /* Sources */,
-				2D52E65B1549B90D9A7CCB7EAC5A66B1 /* Frameworks */,
-				9AAC58170235E27A6038D0601855EA6F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				ACDE7ECFE7CA0EE2469408C287A33FD9 /* PBXTargetDependency */,
-			);
-			name = "Pods-RPInteraction_Tests";
-			productName = "Pods-RPInteraction_Tests";
-			productReference = D2C2F5B3B8866B2486113F391C9F5BE0 /* Pods_RPInteraction_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		5BC2026E3B6EDD4BB6A912535152EA77 /* RPInteraction */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C98B5DBB25FB1E46E42A0C12813B4DA /* Build configuration list for PBXNativeTarget "RPInteraction" */;
@@ -477,7 +402,7 @@
 			);
 			name = RPInteraction;
 			productName = RPInteraction;
-			productReference = EBB33F511F4A104547FA568185EAC765 /* RPInteraction.framework */;
+			productReference = 62A0B6BD391CA503B21649F63AE61536 /* RPInteraction.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6F1DDF31C2711DB381A0F56036A73D5A /* Pods-RPInteraction_Example */ = {
@@ -495,7 +420,7 @@
 			);
 			name = "Pods-RPInteraction_Example";
 			productName = "Pods-RPInteraction_Example";
-			productReference = BFB9A13C979D9A7610F41F04396F828F /* Pods_RPInteraction_Example.framework */;
+			productReference = 19E2978AD049EDB4AFBC37150359B198 /* Pods_RPInteraction_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		990B4698CD89C07F13A9650F2C88079C /* RPInteraction-RPInteraction */ = {
@@ -512,7 +437,7 @@
 			);
 			name = "RPInteraction-RPInteraction";
 			productName = "RPInteraction-RPInteraction";
-			productReference = 0F273972314DFBE523549C9D55D8F8B7 /* RPInteraction.bundle */;
+			productReference = 7A95F97F1629D85C42001A12B9C4AB33 /* RPInteraction.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -532,12 +457,11 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CE120F6917C0A0A7602C10AB3FDC6081 /* Products */;
+			productRefGroup = DF3EB9A0C7F8FA19036D1FCFD453E9CC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				6F1DDF31C2711DB381A0F56036A73D5A /* Pods-RPInteraction_Example */,
-				52180BABE2B638A39B299552964B1B1F /* Pods-RPInteraction_Tests */,
 				5BC2026E3B6EDD4BB6A912535152EA77 /* RPInteraction */,
 				990B4698CD89C07F13A9650F2C88079C /* RPInteraction-RPInteraction */,
 			);
@@ -595,14 +519,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C696DA7174B8352A106618254AD0918 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4AD9732AE2BBF60382A6301C9A2914A7 /* Pods-RPInteraction_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8FB1E59940335BEBFAC551F22B42552C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -624,12 +540,6 @@
 			name = "RPInteraction-RPInteraction";
 			target = 990B4698CD89C07F13A9650F2C88079C /* RPInteraction-RPInteraction */;
 			targetProxy = 79518B55BF1D8C262C5199624ACB3710 /* PBXContainerItemProxy */;
-		};
-		ACDE7ECFE7CA0EE2469408C287A33FD9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-RPInteraction_Example";
-			target = 6F1DDF31C2711DB381A0F56036A73D5A /* Pods-RPInteraction_Example */;
-			targetProxy = FAD52923534D8BE59912951748F82C11 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -792,7 +702,7 @@
 		};
 		7AC285A3D3FEAD47A9C540CF4A9320B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 809BE3D8E112B57CC712C4D8B78826AC /* Pods-RPInteraction_Example.debug.xcconfig */;
+			baseConfigurationReference = 4C0D2472E364EC2DBCAE9A2E53C2ADFC /* Pods-RPInteraction_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -823,76 +733,9 @@
 			};
 			name = Debug;
 		};
-		982B17D4CF297578ECF3AD0B62E093E6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45B691C20D5399BF6493A55EB1D982BF /* Pods-RPInteraction_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RPInteraction_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RPInteraction_Tests/Pods-RPInteraction_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		99C255C2CDE1116AD4821E1A93BD578A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B77DCA66DEEE7327DA76CFCF2993058 /* Pods-RPInteraction_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RPInteraction_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RPInteraction_Tests/Pods-RPInteraction_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		9F0A6CDB6DD0B648FF9AAEF47D60EA22 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4FB1865503DF77945AB0CD9140F0D55 /* Pods-RPInteraction_Example.release.xcconfig */;
+			baseConfigurationReference = 0953D6570693ECDF1B39E5FB4F33725E /* Pods-RPInteraction_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -990,15 +833,6 @@
 			buildConfigurations = (
 				4EBCF4BD6C4604A12AC005B75F37936B /* Debug */,
 				7584FEE4681403CE24D522EA59230E8F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2D5CF57877A2679BD8CE5C5DDD575466 /* Build configuration list for PBXNativeTarget "Pods-RPInteraction_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				982B17D4CF297578ECF3AD0B62E093E6 /* Debug */,
-				99C255C2CDE1116AD4821E1A93BD578A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

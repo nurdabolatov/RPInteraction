@@ -55,9 +55,6 @@
 		935A29932112F36800B92F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C788D74A1441892A2CA0BFE /* Pods-RPInteraction_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPInteraction_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RPInteraction_Example/Pods-RPInteraction_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A7BD56A664EAAB48976FFB37 /* Pods-RPInteraction_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPInteraction_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RPInteraction_Example/Pods-RPInteraction_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E96ECEE93549E0E1D789BC33 /* Pods_RPInteraction_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RPInteraction_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E973D392EE65D8C9ACBD8176 /* Pods-RPInteraction_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPInteraction_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RPInteraction_Tests/Pods-RPInteraction_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FEE224AA274AD214360A1DD9 /* Pods-RPInteraction_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPInteraction_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RPInteraction_Tests/Pods-RPInteraction_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +84,6 @@
 			children = (
 				9C788D74A1441892A2CA0BFE /* Pods-RPInteraction_Example.debug.xcconfig */,
 				A7BD56A664EAAB48976FFB37 /* Pods-RPInteraction_Example.release.xcconfig */,
-				E973D392EE65D8C9ACBD8176 /* Pods-RPInteraction_Tests.debug.xcconfig */,
-				FEE224AA274AD214360A1DD9 /* Pods-RPInteraction_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -122,7 +117,6 @@
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				6D3434C21D3C2F476AA3B090 /* Pods_RPInteraction_Example.framework */,
-				E96ECEE93549E0E1D789BC33 /* Pods_RPInteraction_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
