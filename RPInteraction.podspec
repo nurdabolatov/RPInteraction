@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'RPInteraction'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Review page interaction - handy and pretty way to ask for review.'
 
   s.description      = <<-DESC
