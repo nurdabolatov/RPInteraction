@@ -11,5 +11,5 @@ before_install:
 
 script:
 - set -o pipefail
-- xcodebuild test -enableCodeCoverage YES -workspace Example/RPInteraction.xcworkspace -scheme RPInteraction-Example -sdk iphonesimulator11.2 ONLY_ACTIVE_ARCH=NO | xcpretty
+- xcodebuild test -enableCodeCoverage YES -workspace Example/RPInteraction.xcworkspace -scheme RPInteraction-Example -destination 'platform=iOS Simulator,name=iPhone 6,OS=11.2' | xcpretty
 - pod lib lint
