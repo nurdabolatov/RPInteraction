@@ -12,7 +12,6 @@
 
 @implementation FaceView {
     NSMutableArray *layers;
-    NSObject *test;
 }
 
 - (void)configureMouthWithBadGradient:(Gradient *)badGradient
