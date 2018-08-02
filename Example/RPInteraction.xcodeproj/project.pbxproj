@@ -14,24 +14,19 @@
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* RPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* RPAppDelegate.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
-		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
-		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		8842C2D29FCDC4AA75B691E0 /* Pods_RPInteraction_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E96ECEE93549E0E1D789BC33 /* Pods_RPInteraction_Tests.framework */; };
 		9335543F2110539E00433A76 /* RPExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9335543E2110539E00433A76 /* RPExampleViewController.m */; };
+		935A29922112F36800B92F39 /* RPInteraction_ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 935A29912112F36800B92F39 /* RPInteraction_ExampleUITests.m */; };
 		B19AC4F23FB552D461E3B6E3 /* Pods_RPInteraction_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D3434C21D3C2F476AA3B090 /* Pods_RPInteraction_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
+		935A29942112F36800B92F39 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6003F589195388D20070C39A;
-			remoteInfo = RPInteraction;
+			remoteInfo = RPInteraction_Example;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -49,17 +44,15 @@
 		6003F59C195388D20070C39A /* RPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* RPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* RPInteraction_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPInteraction_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
-		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
-		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6D3434C21D3C2F476AA3B090 /* Pods_RPInteraction_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RPInteraction_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7428E809482BECD8DA0AD282 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9335543D2110539E00433A76 /* RPExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPExampleViewController.h; sourceTree = "<group>"; };
 		9335543E2110539E00433A76 /* RPExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPExampleViewController.m; sourceTree = "<group>"; };
+		935A298F2112F36800B92F39 /* RPInteraction_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPInteraction_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		935A29912112F36800B92F39 /* RPInteraction_ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPInteraction_ExampleUITests.m; sourceTree = "<group>"; };
+		935A29932112F36800B92F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C788D74A1441892A2CA0BFE /* Pods-RPInteraction_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPInteraction_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RPInteraction_Example/Pods-RPInteraction_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A7BD56A664EAAB48976FFB37 /* Pods-RPInteraction_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPInteraction_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RPInteraction_Example/Pods-RPInteraction_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E96ECEE93549E0E1D789BC33 /* Pods_RPInteraction_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RPInteraction_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,14 +72,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6003F5AB195388D20070C39A /* Frameworks */ = {
+		935A298C2112F36800B92F39 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
-				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				8842C2D29FCDC4AA75B691E0 /* Pods_RPInteraction_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,7 +98,7 @@
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for RPInteraction */,
-				6003F5B5195388D20070C39A /* Tests */,
+				935A29902112F36800B92F39 /* RPInteraction_ExampleUITests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				37A759C15B6590F1C703DD7E /* Pods */,
@@ -120,7 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				6003F58A195388D20070C39A /* RPInteraction_Example.app */,
-				6003F5AE195388D20070C39A /* RPInteraction_Tests.xctest */,
+				935A298F2112F36800B92F39 /* RPInteraction_ExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -164,25 +153,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6003F5B5195388D20070C39A /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				6003F5BB195388D20070C39A /* Tests.m */,
-				6003F5B6195388D20070C39A /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		6003F5B6195388D20070C39A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6003F5B7195388D20070C39A /* Tests-Info.plist */,
-				6003F5B8195388D20070C39A /* InfoPlist.strings */,
-				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,6 +161,15 @@
 				472BFC7D1EDD4102E8B8DFE3 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		935A29902112F36800B92F39 /* RPInteraction_ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				935A29912112F36800B92F39 /* RPInteraction_ExampleUITests.m */,
+				935A29932112F36800B92F39 /* Info.plist */,
+			);
+			path = RPInteraction_ExampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,24 +194,23 @@
 			productReference = 6003F58A195388D20070C39A /* RPInteraction_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6003F5AD195388D20070C39A /* RPInteraction_Tests */ = {
+		935A298E2112F36800B92F39 /* RPInteraction_ExampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "RPInteraction_Tests" */;
+			buildConfigurationList = 935A29962112F36800B92F39 /* Build configuration list for PBXNativeTarget "RPInteraction_ExampleUITests" */;
 			buildPhases = (
-				9BA2305735D77F8DF454E46D /* [CP] Check Pods Manifest.lock */,
-				6003F5AA195388D20070C39A /* Sources */,
-				6003F5AB195388D20070C39A /* Frameworks */,
-				6003F5AC195388D20070C39A /* Resources */,
+				935A298B2112F36800B92F39 /* Sources */,
+				935A298C2112F36800B92F39 /* Frameworks */,
+				935A298D2112F36800B92F39 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6003F5B4195388D20070C39A /* PBXTargetDependency */,
+				935A29952112F36800B92F39 /* PBXTargetDependency */,
 			);
-			name = RPInteraction_Tests;
-			productName = RPInteractionTests;
-			productReference = 6003F5AE195388D20070C39A /* RPInteraction_Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = RPInteraction_ExampleUITests;
+			productName = RPInteraction_ExampleUITests;
+			productReference = 935A298F2112F36800B92F39 /* RPInteraction_ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -244,7 +222,9 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = nbolatov;
 				TargetAttributes = {
-					6003F5AD195388D20070C39A = {
+					935A298E2112F36800B92F39 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -263,7 +243,7 @@
 			projectRoot = "";
 			targets = (
 				6003F589195388D20070C39A /* RPInteraction_Example */,
-				6003F5AD195388D20070C39A /* RPInteraction_Tests */,
+				935A298E2112F36800B92F39 /* RPInteraction_ExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -279,11 +259,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6003F5AC195388D20070C39A /* Resources */ = {
+		935A298D2112F36800B92F39 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,24 +281,6 @@
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-RPInteraction_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9BA2305735D77F8DF454E46D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RPInteraction_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -357,21 +318,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6003F5AA195388D20070C39A /* Sources */ = {
+		935A298B2112F36800B92F39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				935A29922112F36800B92F39 /* RPInteraction_ExampleUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
+		935A29952112F36800B92F39 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6003F589195388D20070C39A /* RPInteraction_Example */;
-			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+			targetProxy = 935A29942112F36800B92F39 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -380,14 +341,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				6003F597195388D20070C39A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6003F5B9195388D20070C39A /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -532,47 +485,50 @@
 			};
 			name = Release;
 		};
-		6003F5C3195388D20070C39A /* Debug */ = {
+		935A29972112F36800B92F39 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E973D392EE65D8C9ACBD8176 /* Pods-RPInteraction_Tests.debug.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = RPInteraction_ExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.RPInteraction-ExampleUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RPInteraction_Example.app/RPInteraction_Example";
-				WRAPPER_EXTENSION = xctest;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RPInteraction_Example;
 			};
 			name = Debug;
 		};
-		6003F5C4195388D20070C39A /* Release */ = {
+		935A29982112F36800B92F39 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FEE224AA274AD214360A1DD9 /* Pods-RPInteraction_Tests.release.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = RPInteraction_ExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.RPInteraction-ExampleUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RPInteraction_Example.app/RPInteraction_Example";
-				WRAPPER_EXTENSION = xctest;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RPInteraction_Example;
 			};
 			name = Release;
 		};
@@ -597,11 +553,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "RPInteraction_Tests" */ = {
+		935A29962112F36800B92F39 /* Build configuration list for PBXNativeTarget "RPInteraction_ExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6003F5C3195388D20070C39A /* Debug */,
-				6003F5C4195388D20070C39A /* Release */,
+				935A29972112F36800B92F39 /* Debug */,
+				935A29982112F36800B92F39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

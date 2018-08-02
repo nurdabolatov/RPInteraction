@@ -39,6 +39,16 @@
                ReferencedContainer = "container:RPInteraction.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "935A298E2112F36800B92F39"
+               BuildableName = "RPInteraction_ExampleUITests.xctest"
+               BlueprintName = "RPInteraction_ExampleUITests"
+               ReferencedContainer = "container:RPInteraction.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
