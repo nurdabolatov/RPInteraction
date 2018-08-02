@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6003F589195388D20070C39A"
-               BuildableName = "RPInteraction_Example.app"
-               BlueprintName = "RPInteraction_Example"
-               ReferencedContainer = "container:RPInteraction.xcodeproj">
+               BlueprintIdentifier = "5BC2026E3B6EDD4BB6A912535152EA77"
+               BuildableName = "RPInteraction.framework"
+               BlueprintName = "RPInteraction"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,38 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5BC2026E3B6EDD4BB6A912535152EA77"
-               BuildableName = "RPInteraction.framework"
-               BlueprintName = "RPInteraction"
+               BlueprintIdentifier = "990B4698CD89C07F13A9650F2C88079C"
+               BuildableName = "RPInteraction.bundle"
+               BlueprintName = "RPInteraction-RPInteraction"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6F1DDF31C2711DB381A0F56036A73D5A"
+               BuildableName = "Pods_RPInteraction_Example.framework"
+               BlueprintName = "Pods-RPInteraction_Example"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6003F589195388D20070C39A"
+               BuildableName = "RPInteraction_Example.app"
+               BlueprintName = "RPInteraction_Example"
+               ReferencedContainer = "container:RPInteraction.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
